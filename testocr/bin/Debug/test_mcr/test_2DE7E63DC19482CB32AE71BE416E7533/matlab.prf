@@ -1,0 +1,20 @@
+#MATLAB Preferences
+#Mon Jan 21 13:54:11 ACT 2013
+FileBrowserFiveColumnWidths=S[150 100 75 150 400]
+ReplaceMatchCase=Bfalse
+ReplaceWordWrap=Bfalse
+MatlabExitConfirm=Bfalse
+EditorNamedBufferOption=I2
+ReplaceWholeWord=Bfalse
+EditorMRU9=S
+EditorMRU8=S
+EditorMRU7=S
+MatlabErrorLogReportTime=J4694562828976340039
+EditorMRU6=S
+EditorMRU5=S
+EditorMRU4=SC:\\Users\\kiran\\Desktop\\OCR\\f3.m
+EditorMRU3=SC:\\Users\\kiran\\Desktop\\OCR\\create_templates.m
+EditorMRU2=SC:\\Users\\kiran\\Desktop\\OCR\\read_letter.m
+CommandWindowClearConfirmation=Btrue
+EditorMRU1=SC:\\Users\\kiran\\Desktop\\OCR\\test.m
+FileBrowserFiveColumnOrder=S[0 1 2 3 4]

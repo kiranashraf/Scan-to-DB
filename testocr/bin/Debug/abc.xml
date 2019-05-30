@@ -1,0 +1,213 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>abc</name>
+    </assembly>
+    <members>
+        <member name="T:abc.abcclass">
+            <summary>
+            The abcclass class provides a CLS compliant interface to the M-functions contained
+            in the files:
+            <newpara></newpara>
+            C:\Users\kiran\Desktop\cc.m
+            <newpara></newpara>
+            C:\Users\kiran\Desktop\OCR\f3.m
+            <newpara></newpara>
+            deployprint.m
+            <newpara></newpara>
+            printdlg.m
+            </summary>
+            <remarks>
+            @Version 2.0
+            </remarks>
+        </member>
+        <member name="M:abc.abcclass.#cctor">
+            <summary internal= "true">
+            The static constructor instantiates and initializes the MATLAB Component
+            Runtime instance.
+            </summary>
+        </member>
+        <member name="M:abc.abcclass.#ctor">
+            <summary>
+            Constructs a new instance of the abcclass class.
+            </summary>
+        </member>
+        <member name="M:abc.abcclass.Finalize">
+            <summary internal= "true">
+            Class destructor called by the CLR garbage collector.
+            </summary>
+        </member>
+        <member name="M:abc.abcclass.Dispose">
+            <summary>
+            Frees the native resources associated with this object
+            </summary>
+        </member>
+        <member name="M:abc.abcclass.Dispose(System.Boolean)">
+            <summary internal= "true">
+            Internal dispose function
+            </summary>
+        </member>
+        <member name="M:abc.abcclass.cc">
+             <summary>
+             Provides a single output, 0-input interface to the cc M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:abc.abcclass.cc(System.Int32)">
+             <summary>
+             Provides the standard 0-input interface to the cc M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:abc.abcclass.cc(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray[]@,MathWorks.MATLAB.NET.Arrays.MWArray[])">
+             <summary>
+             Provides an interface for the cc function in which the input and output
+             arguments are specified as an array of MWArrays.
+             </summary>
+             <remarks>
+             This method will allocate and return by reference the output argument
+             array.<newpara></newpara>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return</param>
+             <param name= "argsOut">Array of MWArray output arguments</param>
+             <param name= "argsIn">Array of MWArray input arguments</param>
+            
+        </member>
+        <member name="M:abc.abcclass.f3">
+             <summary>
+             Provides a void output, 0-input interface to the f3 M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             e = imresize(e,[800,600]);
+             figure, imshow(e)
+             </remarks>
+            
+        </member>
+        <member name="M:abc.abcclass.f3(System.Int32)">
+             <summary>
+             Provides the standard 0-input interface to the f3 M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             e = imresize(e,[800,600]);
+             figure, imshow(e)
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:abc.abcclass.WaitForFiguresToDie">
+             <summary>
+             This method will cause a MATLAB figure window to behave as a modal dialog box.
+             The method will not return until all the figure windows associated with this
+             component have been closed.
+             </summary>
+             <remarks>
+             An application should only call this method when required to keep the
+             MATLAB figure window from disappearing.  Other techniques, such as calling
+             Console.ReadLine() from the application should be considered where
+             possible.</remarks>
+            
+        </member>
+        <member name="T:abc.MCRComponentState">
+            <summary>
+            The MCR Component State
+            </summary>
+        </member>
+        <member name="F:abc.MCRComponentState.MCC_abc_name_data">
+            <summary>
+            The .NET Builder component name
+            </summary>
+        </member>
+        <member name="F:abc.MCRComponentState.MCC_abc_root_data">
+            <summary>
+            The component root data
+            </summary>
+        </member>
+        <member name="F:abc.MCRComponentState.MCC_abc_public_data">
+            <summary>
+            The public encryption key for the .NET Builder component
+            </summary>
+        </member>
+        <member name="F:abc.MCRComponentState.MCC_abc_session_data">
+            <summary>
+            The session encryption key for the .NET Builder component
+            </summary>
+        </member>
+        <member name="F:abc.MCRComponentState.MCC_abc_matlabpath_data">
+            <summary>
+            The MATLAB path for the .NET Builder component
+            </summary>
+        </member>
+        <member name="F:abc.MCRComponentState.MCC_abc_matlabpath_data_count">
+            <summary>
+            The MATLAB path count
+            </summary>
+        </member>
+        <member name="F:abc.MCRComponentState.MCC_abc_classpath_data">
+            <summary>
+            The class path for the .NET Builder component
+            </summary>
+        </member>
+        <member name="F:abc.MCRComponentState.MCC_abc_classpath_data_count">
+            <summary>
+            The class path count
+            </summary>
+        </member>
+        <member name="F:abc.MCRComponentState.MCC_abc_libpath_data">
+            <summary>
+            The lib path for the .NET Builder component
+            </summary>
+        </member>
+        <member name="F:abc.MCRComponentState.MCC_abc_libpath_data_count">
+            <summary>
+            The lib path count
+            </summary>
+        </member>
+        <member name="F:abc.MCRComponentState.MCC_abc_mcr_application_options">
+            <summary>
+            The MCR application options
+            </summary>
+        </member>
+        <member name="F:abc.MCRComponentState.MCC_abc_mcr_application_option_count">
+            <summary>
+            The MCR application options count
+            </summary>
+        </member>
+        <member name="F:abc.MCRComponentState.MCC_abc_mcr_runtime_options">
+            <summary>
+            The MCR runtime options
+            </summary>
+        </member>
+        <member name="F:abc.MCRComponentState.MCC_abc_mcr_runtime_option_count">
+            <summary>
+            The MCR runtime options count
+            </summary>
+        </member>
+        <member name="F:abc.MCRComponentState.MCC_abc_mcr_pref_dir">
+            <summary>
+            The component preferences directory
+            </summary>
+        </member>
+        <member name="F:abc.MCRComponentState.MCC_abc_set_warning_state">
+            <summary>
+            Runtime warning states
+            </summary>
+        </member>
+        <member name="F:abc.MCRComponentState.MCC_abc_set_warning_state_count">
+            <summary>
+            Runtime warning state count
+            </summary>
+        </member>
+    </members>
+</doc>
